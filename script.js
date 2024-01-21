@@ -8,9 +8,7 @@ const body = document.querySelector("body");
 
 const message = document.getElementById("message");
 
-const hexcodes = [
-    "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f"
-];
+const hexcodes = [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "a", "b", "c", "d", "e", "f" ];
 
 input1.addEventListener("input", function () {
     let firstColor = input1.value;
